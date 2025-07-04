@@ -5,6 +5,12 @@ function MovieCard({movie}) {
     const {isFavorite, addToFavorites, removeFromFavorites} = useMovieContext()
     const favorite = isFavorite(movie.id)
 
+    /**
+     * Handles the click event for the favorite button.
+     * Prevents the default action and toggles the movie's favorite status.
+     * If the movie is already a favorite, it removes it from favorites;
+     * otherwise, it adds the movie to favorites.
+     */
     function onFavoriteClick(e) {
         e.preventDefault()
         if (favorite) removeFromFavorites(movie.id)

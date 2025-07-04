@@ -10,6 +10,13 @@ function Home() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
+    /**
+     * Asynchronously loads popular movies and updates the state.
+     * Fetches popular movies using the getPopularMovies function,
+     * sets the movies state with the fetched data, handles errors by
+     * setting an error message, and updates the loading state when done.
+     *
+     */
     const loadPopularMovies = async () => {
       try {
         const popularMovies = await getPopularMovies();
@@ -25,6 +32,11 @@ function Home() {
     loadPopularMovies();
   }, []);
 
+  /**
+   * Handles the movie search form submission.
+   * Prevents default form behavior, validates the search query,
+   * manages loading state, performs the search, and updates movies or error state.
+   */
   const handleSearch = async (e) => {
     e.preventDefault();
     if (!searchQuery.trim()) return
