@@ -1,12 +1,60 @@
-# React + Vite
+# 🎬 Movie App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A sleek and responsive React application that allows users to browse and search for movies using real-time data from **The Movie Database (TMDB) API**. The app displays trending movies, supports search functionality, and provides a clean user interface.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- 🔥 Browse trending movies on load
+- 🔍 Search for movies by title
+- 🎞️ Display poster, title, release date, and rating
+- 🖥️ Responsive UI built with modern React features
+- ⚠️ Handles loading and error states
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Tech Stack
+
+- **React (Vite)**
+- **JavaScript (ES6+)**
+- **TMDB API**
+- **CSS** for custom styling
+
+---
+
+## 📸 Screenshots
+
+
+
+---
+
+## ⚙️ Setup Instructions
+  
+## Installation
+
+To set up and run the project locally, follow these steps:
+
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/kishlay1210/movie-app.git
+
+2. **Navigate to the Project Directory**:
+   ```bash
+   cd movie-app
+
+3. **Install Dependencies: Ensure you have Node.js installed, then run**:
+      ```bash
+   npm install
+
+4. **Run the Application: To start the development server, run**:
+    ```bash
+   npm run dev
+
+5. **Access the Application: Open your browser and go to http://localhost:5173 to view the app**.
+
+
+## External API
+The application uses an external weather API from https://www.themoviedb.org/ to fetch data. 
+Sign up and generate an API key from your account.
+Ensure that you replace the placeholder API key in the relevant service file with your actual API key.
