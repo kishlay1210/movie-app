@@ -25,7 +25,11 @@ A sleek and responsive React application that allows users to browse and search 
 
 ## 📸 Screenshots
 
+- Home:  
+> ![App Screenshot](./public/homepage.gif)
 
+- Search:  
+> ![App Screenshot](./public/searchpage.gif)
 
 ---
 
