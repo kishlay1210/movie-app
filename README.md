@@ -50,6 +50,7 @@ To set up and run the project locally, follow these steps:
 3. **Install Dependencies: Ensure you have Node.js installed, then run**:
       ```bash
    npm install
+   npm react-router-dom
 
 4. **Run the Application: To start the development server, run**:
     ```bash
